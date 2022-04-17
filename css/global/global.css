@@ -4,7 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1,h2,h3,h4,ul,p,blockquote {
+h1,h2,h3,h4,ul,p,blockquote,dd {
   margin: 0px;
 }
 
@@ -20,9 +20,10 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
-img [src$=".jpg"] {
+img[src$=".jpg"] {
   border-radius: 5px;
 }
